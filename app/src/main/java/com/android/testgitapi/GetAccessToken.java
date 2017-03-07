@@ -45,10 +45,6 @@ public class GetAccessToken {
     List<NameValuePair> params = new ArrayList<NameValuePair>();
     DefaultHttpClient httpClient;
     HttpPost httpPost;
-    OkHttpClient okHttpClient;
-
-    ContentValues values=new ContentValues();
-
 
 
     public static Map<String, String> getQueryMap(String query)
